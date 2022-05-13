@@ -7,10 +7,10 @@ let package = Package(
     name: "MarketingCloudSDK",
     defaultLocalization: "en",
     products: [
-        .library(name: "MarketingCloudSDK", targets: ["MarketingCloudSDK"])
+        .library(name: "MarketingCloudSDK", targets: ["MarketingCloudSDK", "MarketingCloudSDKResources"])
     ],
     dependencies: [
-        .package(url: "https://github.com/salesforce-marketingcloud/sfmc-sdk-ios", from: "1.0.4"),
+        .package(name: "SFMCSDK", url: "https://github.com/salesforce-marketingcloud/sfmc-sdk-ios", from: "1.0.4"),
     ],
     targets: [
         .binaryTarget(
@@ -19,6 +19,7 @@ let package = Package(
         ),
         .target(
              name: "MarketingCloudSDKResources",
+             dependencies: [.product(name: "SFMCSDK", package: "SFMCSDK")],
              resources: [.process("Resources")]
         )
     ]
