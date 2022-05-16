@@ -36,8 +36,13 @@ let package = Package(
         ),
         .target(
              name: "MarketingCloudSDKResources",
-             path: "Sources/MarketingCloudSDKResources",
-             resources: [.process("Resources")]
+             path: "Sources/",
+             resources: [
+                .process("MarketingCloudSDKResources/Resources/Assets.car"),
+                .process("MarketingCloudSDKResources/Resources/MarketingCloudSDK.bundle"),
+                .process("MarketingCloudSDKResources/Resources/SFMCModel.momd"),
+                .process("MarketingCloudSDKResources/Resources/InAppMessageUI.storyboardc")
+             ]
         )
     ]
 )
