@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "MarketingCloudSDK", targets: [
             "MarketingCloudSDK",
             "MarketingCloudSDKTarget",
-            //"MarketingCloudSDKResources"
+            "MarketingCloudSDKResources"
         ])
     ],
     dependencies: [
@@ -36,6 +36,7 @@ let package = Package(
         ),
         .target(
              name: "MarketingCloudSDKResources",
+             path: "Sources/MarketingCloudSDKResources",
              resources: [.process("Resources")]
         )
     ]
