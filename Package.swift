@@ -29,13 +29,13 @@ let package = Package(
              ],
              path: "Sources/",
              exclude: [
-                "MarketingCloudSDKResources/Resources/MarketingCloudSDK.bundle"
+                "MarketingCloudSDKResources/Resources/Assets.car",
+                "MarketingCloudSDKResources/Resources/SFMCModel.momd",
+                "MarketingCloudSDKResources/Resources/InAppMessageUI.storyboardc",
+                "MarketingCloudSDKResources/Resources/en.lproj"
              ],
              resources: [
-                .process("MarketingCloudSDKResources/Resources/Assets.car"),
-                .process("MarketingCloudSDKResources/Resources/SFMCModel.momd"),
-                .process("MarketingCloudSDKResources/Resources/InAppMessageUI.storyboardc"),
-                .process("MarketingCloudSDKResources/Resources/en.lproj")
+                .process("MarketingCloudSDKResources/Resources/MarketingCloudSDK.bundle"),
              ]
         )
     ]
