@@ -32,7 +32,7 @@ let package = Package(
                 "MarketingCloudSDKResources/Resources/Assets.car",
                 "MarketingCloudSDKResources/Resources/SFMCModel.momd",
                 "MarketingCloudSDKResources/Resources/InAppMessageUI.storyboardc",
-                "MarketingCloudSDKResources/Resources/en.lproj"
+                "MarketingCloudSDKResources/Resources/en.lproj/MarketingCloudSDK.strings"
              ],
              resources: [
                 .process("MarketingCloudSDKResources/Resources/MarketingCloudSDK.bundle"),
