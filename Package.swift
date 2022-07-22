@@ -9,8 +9,7 @@ let package = Package(
     products: [
         .library(name: "MarketingCloudSDK", targets: [
             "MarketingCloudSDK",
-            "MarketingCloudSDKTarget",
-            "MarketingCloudSDKResources"
+            "MarketingCloudSDKTarget"
         ])
     ],
     dependencies: [
@@ -26,25 +25,18 @@ let package = Package(
         ),
         .target(
              name: "MarketingCloudSDKTarget",
-             dependencies: [.product(name: "SFMCSDK", package: "SFMCSDK")],
+             dependencies: [
+                .product(name: "SFMCSDK", package: "SFMCSDK")
+             ],
              path: "Sources/",
              exclude: [
                 "MarketingCloudSDKResources/Resources/Assets.car",
-                "MarketingCloudSDKResources/Resources/MarketingCloudSDK.bundle",
                 "MarketingCloudSDKResources/Resources/SFMCModel.momd",
-                "MarketingCloudSDKResources/Resources/InAppMessageUI.storyboardc"
-             ]
-        ),
-        .target(
-             name: "MarketingCloudSDKResources",
-             path: "Sources/MarketingCloudSDKResources/Resources",
-             exclude: [
-                "Assets.car",
-                "SFMCModel.momd",
-                "InAppMessageUI.storyboardc"
+                "MarketingCloudSDKResources/Resources/InAppMessageUI.storyboardc",
+                "MarketingCloudSDKResources/Resources/en.lproj/MarketingCloudSDK.strings"
              ],
              resources: [
-                .copy("MarketingCloudSDK.bundle")
+                .process("MarketingCloudSDKResources/Resources/MarketingCloudSDK.bundle"),
              ]
         )
     ]
