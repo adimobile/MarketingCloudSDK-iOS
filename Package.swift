@@ -29,6 +29,9 @@ let package = Package(
         ),
         .target(
              name: "MarketingCloudSDKResources",
+             dependencies: [
+                .product(name: "SFMCSDK", package: "SFMCSDK")
+             ],
              resources: [
                 .process("Resources")
              ]
