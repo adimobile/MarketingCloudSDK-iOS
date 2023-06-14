@@ -2,7 +2,7 @@
 //  SFMCModel+CoreDataModel.h
 //  
 //
-//  Created by Ethan Yehuda on 1/19/23.
+//  Created by iosadmin on 5/1/23.
 //
 //  This file was automatically generated and should not be edited.
 //

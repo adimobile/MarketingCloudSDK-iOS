@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		CyxicBC8z535xhTPVYgT3pFP2nk=
+		+Qephj8uY6cWdJsow9ySfVldwHk=
 		</data>
 		<key>InAppMessageUI.storyboardc/InAppMessageUIViewController.nib</key>
 		<data>
@@ -18,35 +18,35 @@
 		</data>
 		<key>InAppMessageUI.storyboardc/P8f-fg-jwy-view-Xyz-2s-9Ez.nib</key>
 		<data>
-		6UWA/2PGlZW6mISb8RCIY5ftlBU=
+		/BwncdPiD5mzz/FBvAgA9h+69S0=
 		</data>
 		<key>SFMCConfigurationEntity+CoreDataClass.h</key>
 		<data>
-		FTu6Rvx00/+ctnS172iP7gA9YcQ=
+		5NaT6mSu1VhXFyuGUxR2KyRtx7s=
 		</data>
 		<key>SFMCConfigurationEntity+CoreDataProperties.h</key>
 		<data>
-		6NnUSvLvi1EpX59VYY+GX/udz/w=
+		fkH00dBwomIAWHdDDUYAhmpbVsw=
 		</data>
 		<key>SFMCEndpointConfigurationEntity+CoreDataClass.h</key>
 		<data>
-		tmG60eewRaBGdDeZ2B0PW7IxaK0=
+		G+lYhkZeHu6pOxjFYur2JspaV3Y=
 		</data>
 		<key>SFMCEndpointConfigurationEntity+CoreDataProperties.h</key>
 		<data>
-		fMwd0GnASTNfXv2CoL/dt8HxnvQ=
+		a3hMc3FkIuBac4kW+n2Q53vexnc=
 		</data>
 		<key>SFMCEventConfigurationEntity+CoreDataClass.h</key>
 		<data>
-		0LCWvAAlQvho0ZRxAqSJkDzr2L8=
+		fRhzFaLODlu3dSM8BaMG+ryMEfQ=
 		</data>
 		<key>SFMCEventConfigurationEntity+CoreDataProperties.h</key>
 		<data>
-		5IbOcLORPJq+uhfJFhCl6DyFhOM=
+		1RNR6ycSKUsMBHW0+XjpvU20jgo=
 		</data>
 		<key>SFMCModel+CoreDataModel.h</key>
 		<data>
-		Aprx+/ODkuzClsr+DYrsAPcq+m4=
+		haHxuYfWNmAFBuWLC76lQUMli+k=
 		</data>
 		<key>SFMCModel.momd/214.00.mom</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>SFMCModel.momd/VersionInfo.plist</key>
 		<data>
-		BatHEGSPOi4tvH7dZA8qZamfQcY=
+		91agqAEnEgK083+1jLEC6Y77XO4=
 		</data>
 		<key>en.lproj/MarketingCloudSDK.strings</key>
 		<dict>
@@ -124,11 +124,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CyxicBC8z535xhTPVYgT3pFP2nk=
+			+Qephj8uY6cWdJsow9ySfVldwHk=
 			</data>
 			<key>hash2</key>
 			<data>
-			MFQNdhlB7QMm3RRH/eVykr7Alq2lOhzoYwDltUsjjAc=
+			aijLRTuELaxIj3nPPfO/CZvKa56xQR84gXaBK9NeENw=
 			</data>
 		</dict>
 		<key>InAppMessageUI.storyboardc/InAppMessageUIViewController.nib</key>
@@ -157,88 +157,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6UWA/2PGlZW6mISb8RCIY5ftlBU=
+			/BwncdPiD5mzz/FBvAgA9h+69S0=
 			</data>
 			<key>hash2</key>
 			<data>
-			TezKj5HqAYUqu1DgCde8Q89HyPj99zOxhGWVzIl+n6k=
+			cP9cnMcxGxWdKm8L7ftaeRpQW3KtRyJETa5NdzswMbo=
 			</data>
 		</dict>
 		<key>SFMCConfigurationEntity+CoreDataClass.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FTu6Rvx00/+ctnS172iP7gA9YcQ=
+			5NaT6mSu1VhXFyuGUxR2KyRtx7s=
 			</data>
 			<key>hash2</key>
 			<data>
-			t6Iu+esNfMN7rEbrXcLkNGa2g8r9WFx20a22jztqDRI=
+			JR/qlXx35umrYU6uWTryX8d8yhq2yqeN5tSy3OCq1mI=
 			</data>
 		</dict>
 		<key>SFMCConfigurationEntity+CoreDataProperties.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6NnUSvLvi1EpX59VYY+GX/udz/w=
+			fkH00dBwomIAWHdDDUYAhmpbVsw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z2oNkC0AFtdQLA4JDnqsTWKdPySm+0Ayzh4X8gr5Q+o=
+			THL1bPLlFL3uHco17uC1U1jn2hF6nNbU31ZHZSW7zdU=
 			</data>
 		</dict>
 		<key>SFMCEndpointConfigurationEntity+CoreDataClass.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tmG60eewRaBGdDeZ2B0PW7IxaK0=
+			G+lYhkZeHu6pOxjFYur2JspaV3Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			GN4CBra/P8kQRwE/HMxGikb1BjYZo4DIskUMa/c1UxE=
+			HO7gRd1ACdlEjXBOkc/t51dT7IzqYxMM6mqlClQRfak=
 			</data>
 		</dict>
 		<key>SFMCEndpointConfigurationEntity+CoreDataProperties.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fMwd0GnASTNfXv2CoL/dt8HxnvQ=
+			a3hMc3FkIuBac4kW+n2Q53vexnc=
 			</data>
 			<key>hash2</key>
 			<data>
-			WGvuUCstXffJohREUx19ZQMIYJpZ8//YPaFvXCv25tM=
+			TFWPuZi/fFNzp9Rr9sA4gWQyoGx8GPiJSeXI1rubSPY=
 			</data>
 		</dict>
 		<key>SFMCEventConfigurationEntity+CoreDataClass.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0LCWvAAlQvho0ZRxAqSJkDzr2L8=
+			fRhzFaLODlu3dSM8BaMG+ryMEfQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			GPIxhZsaG2BOsbb4TL0tI0TcZIE7roQX8Ga8J42mdz8=
+			9v0xTXW97hJ6Mr8tjZ7sPkqhCiq1wynqqkixSXnA4L4=
 			</data>
 		</dict>
 		<key>SFMCEventConfigurationEntity+CoreDataProperties.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5IbOcLORPJq+uhfJFhCl6DyFhOM=
+			1RNR6ycSKUsMBHW0+XjpvU20jgo=
 			</data>
 			<key>hash2</key>
 			<data>
-			hU1EuNvhwEKhgtupGVRYiswdhPLpSXnnvRyalagHo08=
+			rzcu2oi2+VGvDJ1KErYzj4JX0bJBIDRAnpnc+lWroZA=
 			</data>
 		</dict>
 		<key>SFMCModel+CoreDataModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Aprx+/ODkuzClsr+DYrsAPcq+m4=
+			haHxuYfWNmAFBuWLC76lQUMli+k=
 			</data>
 			<key>hash2</key>
 			<data>
-			OJRw/9boDW+614pTB47cZQVzXmhLvj59JC5/mOvN/PY=
+			8IIWuzwfyp2SUNKzfrl/ZFmKclzJGQr1X+mnFhxW3uc=
 			</data>
 		</dict>
 		<key>SFMCModel.momd/214.00.mom</key>
@@ -399,11 +399,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BatHEGSPOi4tvH7dZA8qZamfQcY=
+			91agqAEnEgK083+1jLEC6Y77XO4=
 			</data>
 			<key>hash2</key>
 			<data>
-			KYgIaZC1pfReTH08Rz/mra5XVCOn1jmao3U07C5h23w=
+			l74PZJVxbyTHD6QZpwsEyF0E80zh44soP2pw7Ly0qOc=
 			</data>
 		</dict>
 		<key>en.lproj/MarketingCloudSDK.strings</key>
