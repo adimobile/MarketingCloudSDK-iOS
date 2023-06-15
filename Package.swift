@@ -25,7 +25,7 @@ let package = Package(
         .binaryTarget(
             name: "MarketingCloudSDK",
             url: "https://github.com/adimobile/MarketingCloudSDK-iOS/releases/download/v8.0.13-spm/MarketingCloudSDK.xcframework.zip",
-            checksum: "e9d51b6f663f0cd90b0cac9f55de6a4d7d9f09baf59cd8274ab7d90b495dbd4a"
+            checksum: "26bb30354d49313bda98c95d551b4496ed3ced14cf8bc489994b64a970405006"
         ),
         .target(
              name: "MarketingCloudSDKResources",
