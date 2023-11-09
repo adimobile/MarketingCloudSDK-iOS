@@ -21,11 +21,7 @@ class RegistrationViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        
-        
-        var sdkStateJSON = SFMCSdk.state()
- 
-        
+        var sdkStateJSON = MarketingCloudSDK.sharedInstance().sfmc_getSDKState() ?? "{}"
         guard let data = sdkStateJSON.data(using: .utf8) else { self.textView.text = sdkStateJSON
             return
         }
@@ -33,13 +29,13 @@ class RegistrationViewController: UIViewController {
             guard let json = try JSONSerialization.jsonObject(with: data, options: .mutableContainers) as? [String:AnyObject] else { self.textView.text = sdkStateJSON
                 return
             }
-
-            guard let modules = json["modules"], let push = modules["push"]  else {
-                self.textView.text = sdkStateJSON
+            guard let general = json["MarketingCloudSDK General Information"] else { self.textView.text = sdkStateJSON
                 return
             }
-            
-            guard let registrationData = try? JSONSerialization.data(withJSONObject: push ?? "No data", options: .prettyPrinted) else { self.textView.text = sdkStateJSON
+            guard let registration = general["Registration Details"] else { self.textView.text = sdkStateJSON
+                return
+            }
+            guard let registrationData = try? JSONSerialization.data(withJSONObject: registration!, options: .prettyPrinted) else { self.textView.text = sdkStateJSON
                 return
             }
             sdkStateJSON = String(data: registrationData, encoding: .utf8) ?? "No Registration Data"

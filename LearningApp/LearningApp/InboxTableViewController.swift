@@ -51,7 +51,7 @@ class InboxTableViewController: UITableViewController {
     // This example refresh method, used by the refresh control, will call the SDK's sfmc_refreshMessages
     // method to fetch inbox messages from the server.
     @objc func refresh(_ sender: Any) {
-        if SFMCSdk.mp.refreshMessages() == false {
+        if MarketingCloudSDK.sharedInstance().sfmc_refreshMessages() == false {
             refreshControl?.endRefreshing()
         }
     }
@@ -59,8 +59,7 @@ class InboxTableViewController: UITableViewController {
     // This method will fetch already-downloaded messages from the SDK, sort by the sendDateUtc value
     // into the data source for this UITableViewController.
     func reloadData() {
-        
-        if let inboxArray = SFMCSdk.mp.getAllMessages() as? [[String : Any]] {
+        if let inboxArray = MarketingCloudSDK.sharedInstance().sfmc_getAllMessages() as? [[String : Any]] {
             dataSourceArray = inboxArray.sorted {
             
                 if $0["sendDateUtc"] == nil {
@@ -126,8 +125,8 @@ class InboxTableViewController: UITableViewController {
         // In a basic inbox implementation, the application should call the methods below to ensure that
         // analytics are being tracked correctly and that the SDK and Marketing Cloud accurately reflect
         // the read state of the message.
-        SFMCSdk.mp.trackMessageOpened(inboxMessage)
-        SFMCSdk.mp.markMessageRead(inboxMessage)
+        MarketingCloudSDK.sharedInstance().sfmc_trackMessageOpened(inboxMessage)
+        MarketingCloudSDK.sharedInstance().sfmc_markMessageRead(inboxMessage)
 
         // If the inbox message has a URL, it would be appropriate to open the URL when the inbox item is selected.
         // This is a simple example using SFSafariViewController.
@@ -144,8 +143,7 @@ class InboxTableViewController: UITableViewController {
             
             // If the inbox implementation allows for deleting messages, call the method in the SDK to reflect the deletion.
             let inboxMessage = dataSourceArray[indexPath.row]
-            
-            SFMCSdk.mp.markMessageDeleted(inboxMessage)
+            MarketingCloudSDK.sharedInstance().sfmc_markMessageDeleted(inboxMessage)
             
             // Then, reload the data in the data source and table view.
             reloadData()

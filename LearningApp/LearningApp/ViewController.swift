@@ -38,16 +38,13 @@ class ViewController: UIViewController {
     }
     
     func updateLocationLabel(location: String) {
-        
-        if SFMCSdk.mp.watchingLocation() {
-
-            guard let _ = SFMCSdk.mp.lastKnownLocation() else {
-                locationLabel.text = "Not watching location"
+        if MarketingCloudSDK.sharedInstance().sfmc_watchingLocation() {
+            guard let _ = MarketingCloudSDK.sharedInstance().sfmc_lastKnownLocation() else { locationLabel.text = "Not watching location"
                 return
-            }
-            
+                }
             locationLabel.text = String(format: "Watching location - current location:\n %@", location)
-        } else {
+        }
+        else {
             locationLabel.text = "Not watching location"
         }
     }
@@ -60,12 +57,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func setRegistrationValues(_ sender: Any) {
-        SFMCSdk.identity.setProfileId("yourusername@example.com")
-        SFMCSdk.identity.setProfileAttributes(["LastName": "Smith"])
-        let isTagAddedSuccessfully = SFMCSdk.mp.addTag("Camping")
-        if(!isTagAddedSuccessfully) {
-            debugPrint("setRegistrationValues: Tag not added successfully!")
-        }
+        MarketingCloudSDK.sharedInstance().sfmc_setContactKey("yourusername@example.com")
+        MarketingCloudSDK.sharedInstance().sfmc_setAttributeNamed("LastName", value: "Smith")
+        MarketingCloudSDK.sharedInstance().sfmc_addTag("Camping")
     }
+
 }
 

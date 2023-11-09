@@ -18,13 +18,13 @@ let package = Package(
         .package(
             name: "SFMCSDK",
             url: "https://github.com/salesforce-marketingcloud/sfmc-sdk-ios",
-            from: "1.0.8"
+            from: "1.1.0"
         ),
     ],
     targets: [
         .binaryTarget(
             name: "MarketingCloudSDK",
-            url: "https://github.com/adimobile/MarketingCloudSDK-iOS/releases/download/v8.0.13-spm/MarketingCloudSDK.xcframework.zip",
+            url: "https://github.com/adimobile/MarketingCloudSDK-iOS/releases/download/v8.1.0-spm/MarketingCloudSDK.xcframework.zip",
             checksum: "26bb30354d49313bda98c95d551b4496ed3ced14cf8bc489994b64a970405006"
         ),
         .target(
